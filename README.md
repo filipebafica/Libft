@@ -40,6 +40,10 @@ $ gcc ft_split_main.c ../libft/libft.a
 $ ./a.out
 ```
 ## 📋 Available Functions and Descriptions
+| Function  | Description |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
