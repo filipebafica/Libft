@@ -4,8 +4,8 @@ An implemenation of libc functions from scratch.
 ## 🗂 Table of Contents
 * [About](#-about)
 * [Getting Started](#-getting-started)
-* [How to Use](#how-to-use)
-* [Tests](#tests)
+* [How to Use](#-how-to-use)
+* [Tests](#-tests)
 * [Function Descriptions](#-function-descriptions)
 * [42 École | 42 São Paulo](#-42-école-42-são-paulo)
 
@@ -33,3 +33,4 @@ Just call the desired function (go to [Function Descriptions](#-function-descrip
 ```
 ft_split("split-this-for-me-!",'-');
 ```
+## ✔️ Tests
