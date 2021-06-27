@@ -15,7 +15,7 @@ Topics such as memory allocation, ASCII table, string manipulation, and others w
 ## 🏁 Getting Started
 A C compiler such as `gcc` or `clang` is needed.
 
-### ⚙️ Installing
+#### ⚙️ Installing
 To compile the entire library, clone the repo, and run the commad `make`.
 ```
 $ git clone https://github.com/librity/libft.git
@@ -32,8 +32,8 @@ Just call the desired function (go to [Function Descriptions](#-function-descrip
 ```
 ft_split("split-this-for-me-!",'-');
 ```
-### 👁️‍🗨️ Demonstration
-To see a demonstration go to the mains folder and compile the desired function main.
+#### 👁️‍🗨️ Demonstration
+To see a demonstration go to the mains folder, and compile the main of the desired function.
 ```
 $ cd mains
 $ gcc ft_split_main.c libft.a
