@@ -28,7 +28,7 @@ $ gcc my_source.c libft.a
 $ ./a.out
 ```
 ## 🎈 How to Use
-Just call the desired function (go to [Function Descriptions](#-function-descriptions) to see all available functions).
+Just call the desired function (go to [Available Functions and Descriptions](#-available-functions-and-descriptions) to see all available functions).
 ```
 ft_split("split-this-for-me-!",'-');
 ```
