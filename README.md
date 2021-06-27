@@ -5,7 +5,7 @@ An implemenation of libc functions from scratch.
 * [About](#-about)
 * [Getting Started](#-getting-started)
 * [How to Use](#-how-to-use)
-* [Function Descriptions](#-function-descriptions)
+* [Available Functions and Descriptions](#-available-functions-and-descriptions)
 * [42 École | 42 São Paulo](#-42-école-42-são-paulo)
 
 ## 🧐 About
@@ -36,6 +36,9 @@ ft_split("split-this-for-me-!",'-');
 To see a demonstration go to the mains folder, and compile the main of the desired function.
 ```
 $ cd mains
-$ gcc ft_split_main.c libft.a
+$ gcc ft_split_main.c ../libft/libft.a
 $ ./a.out
 ```
+## 📋 Available Functions and Descriptions
+
+## 🏫 42 École | 42 São Paulo
