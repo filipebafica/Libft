@@ -6,8 +6,8 @@ An implemenation of libc functions from scratch.
 * [Getting Started](#-getting-started)
 * [How to Use](#how-to-use)
 * [Tests](#tests)
-* [Functions Descriptions](#functions-descriptons)
-* [42 École | 42 São Paulo](#42-école-42-são-paulo)
+* [Function Descriptions](#-function-descriptions)
+* [42 École | 42 São Paulo](#-42-école-42-são-paulo)
 
 ## 🧐 About
 This is an implementation of libc functions from scratch. This project is part of 42 École/ 42 SP curriculum.\
@@ -28,4 +28,8 @@ This is going to generate a `libft.a` file that you can compile with your source
 $ gcc my_source libft.a
 $ ./a.out
 ```
-
+## 🎈 How to Use
+Just call the desired function (go to [Function Descriptions](#-function-descriptions) to see all available functions)
+```
+ft_split("split-this-for-me-!",'-');
+```
