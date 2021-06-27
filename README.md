@@ -18,7 +18,7 @@ A C compiler such as `gcc` or `clang` is needed.
 #### ⚙️ Installing
 To compile the entire library, clone the repo, and run the commad `make`.
 ```
-$ git clone https://github.com/librity/libft.git
+$ git clone https://github.com/filipebafica/libft.git
 $ cd libft/source
 $ make
 ```
