@@ -1,2 +1,2 @@
-# ft_libft
+# Libft
 Libc implementations from scratch.
