@@ -5,7 +5,6 @@ An implemenation of libc functions from scratch.
 * [About](#-about)
 * [Getting Started](#-getting-started)
 * [How to Use](#-how-to-use)
-* [Tests](#-tests)
 * [Function Descriptions](#-function-descriptions)
 * [42 École | 42 São Paulo](#-42-école-42-são-paulo)
 
@@ -25,7 +24,7 @@ $ make
 ```
 This is going to generate a `libft.a` file that you can compile with your source code.
 ```
-$ gcc my_source libft.a
+$ gcc my_source.c libft.a
 $ ./a.out
 ```
 ## 🎈 How to Use
@@ -33,4 +32,10 @@ Just call the desired function (go to [Function Descriptions](#-function-descrip
 ```
 ft_split("split-this-for-me-!",'-');
 ```
-## ✔️ Tests
+### 👁️‍🗨️ Demonstration
+To see usage demonstrations go to the mains folder and compile the disired function main
+```
+$ cd mains
+$ gcc ft_split_main.c libft.a
+$ ./a.out
+```
