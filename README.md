@@ -28,12 +28,12 @@ $ gcc my_source.c libft.a
 $ ./a.out
 ```
 ## 🎈 How to Use
-Just call the desired function (go to [Function Descriptions](#-function-descriptions) to see all available functions)
+Just call the desired function (go to [Function Descriptions](#-function-descriptions) to see all available functions).
 ```
 ft_split("split-this-for-me-!",'-');
 ```
 ### 👁️‍🗨️ Demonstration
-To see usage demonstrations go to the mains folder and compile the disired function main
+To see a demonstration go to the mains folder and compile the desired function main.
 ```
 $ cd mains
 $ gcc ft_split_main.c libft.a
