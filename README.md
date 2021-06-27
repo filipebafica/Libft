@@ -35,7 +35,7 @@ ft_split("split-this-for-me-!",'-');
 #### 👁️‍🗨️ Demonstration
 To see a demonstration go to the mains folder, and compile the main of the desired function.
 ```
-$ cd mains
+$ cd libft/mains
 $ gcc ft_split_main.c ../libft/libft.a
 $ ./a.out
 ```
