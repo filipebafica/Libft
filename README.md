@@ -6,7 +6,7 @@ An implemenation of libc functions from scratch.
 * [Getting Started](#-getting-started)
 * [How to Use](#-how-to-use)
 * [Available Functions and Descriptions](#-available-functions-and-descriptions)
-* [42 École / 42 São Paulo](#-42-école-42-são-paulo)
+* [42 École | 42 São Paulo](#-42-école--42-são-paulo)
 
 ## 🧐 About
 This is an implementation of libc functions from scratch. This project is part of 42 École/ 42 SP curriculum.\
@@ -46,7 +46,7 @@ $ ./a.out
 | ft_bzero  | `void	ft_bzero(void *s, size_t n)` | Erases the data in the n bytes of the memory starting at the location pointed to by s, by writing zeroes (bytes containing '\0') to that area. |
 | ft_calloc | `void	*ft_calloc(size_t nmemb, size_t size)` | Allocates memory for an array of nmemb elements of size bytes each and returns a pointer  to  the  allocated memory.  The memory is set to zero. |
 
-## 🏫 42 École / 42 São Paulo
+## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
 At 42 there are no teachers or classrooms, each student learn from and work with each other (peer-to-peer learning).\
 To see more go to https://www.42.fr/ and https://www.42sp.org.br/.
