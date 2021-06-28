@@ -24,7 +24,7 @@ $ make
 ```
 This is going to generate a `libft.a` file that you can compile with your source code (with `#include "libft.h"` added).
 ```
-$ gcc my_source.c -I ./includes libft.a
+$ gcc my_source.c -I ./libft/includes ./libft/libft.a
 $ ./a.out
 ```
 ## 🎈 How to Use
