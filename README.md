@@ -31,13 +31,18 @@ $ ./a.out
 Just call the desired function (go to [Available Functions and Descriptions](#-available-functions-and-descriptions) to see all available functions).
 ```
 #include "libft.h"
+#include <stdio.h>
 
-ft_split("split-this-for-me-!",'-');
+int	main(void)
+{
+	printf("%s\n", ft_strjoin("up the ", "irons!"));
+	return (0);
+}
 ```
 #### 👁️‍🗨️ Demonstration
 To see a demonstration compile the demo of the desired function (just add `_demo` to the end of function's name).
 ```
-$ gcc ./libft/demos/ft_split_demo.c -I ./libft/includes ./libft/libft.a
+$ gcc ./libft/demos/ft_strjoin_demo.c -I ./libft/includes ./libft/libft.a
 $ ./a.out
 ```
 ## 📋 Available Functions and Descriptions
