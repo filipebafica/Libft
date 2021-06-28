@@ -33,10 +33,10 @@ Just call the desired function (go to [Available Functions and Descriptions](#-a
 ft_split("split-this-for-me-!",'-');
 ```
 #### 👁️‍🗨️ Demonstration
-To see a demonstration go to the mains folder, and compile the main of the desired function.
+To see a demonstration go to the demo folder, and compile the demo of the desired function (just add `_demo` to the end of function's name).
 ```
-$ cd libft/mains
-$ gcc ft_split_main.c ../libft/libft.a
+$ cd libft/demos
+$ gcc ft_split_demo.c ../libft/libft.a
 $ ./a.out
 ```
 ## 📋 Available Functions and Descriptions
@@ -54,7 +54,7 @@ $ ./a.out
 | ft_memccpy | `void	*ft_memccpy(void *dest, const void *src, int c, size_t n)` | Copies no more than n bytes from memory area src to memory area dest, stopping when the character c is found. |
 | ft_memchr | `void	*ft_memchr(const void *s, int c, size_t n)` | Scans the initial n bytes of the memory area pointed to by s for the first instance of c. Returns a pointer to the matching byte or NULL if the character does not occur in the given memory area. |
 | ft_memcmp | `int	ft_memcmp(const void *s1, const void *s2, size_t n)` | Compares the first n bytes. Returns an integer less than, equal to, or greater than zero if the first n bytes of s1 is found. |
-| ft_memcpu | `void	*ft_memcpy(void *dest, const void *src, size_t n)` | Copies n bytes from memory area src to memory area dest. |
+| ft_memcpy | `void	*ft_memcpy(void *dest, const void *src, size_t n)` | Copies n bytes from memory area src to memory area dest. |
 | ft_memmove | `void	*ft_memmove(void *dest, const void *src, size_t len)` | Copies n bytes from memory area src to memory area dest. The memory areas may overlap. |
 | ft_memset | `void	*ft_memset(void *s, int c, size_t n)` | Fills the first n bytes of the memory area pointed to by s with the constant byte c. |
 | ft_putchar_fd | `void	ft_putchar_fd(char c, int fd)` | Outputs the character ’c’ to the given file descriptor. |
@@ -65,7 +65,7 @@ $ ./a.out
 | ft_strchr | `char	*ft_strchr(const char *s, int c)`| Returns a pointer to the first occurrence of the character c in the string s. |
 | ft_strdup | `char	*ft_strdup(const char *s)` | Returns a pointer to a new string which is a duplicate of the string s. |
 | ft_strjoin | `char	*ft_strjoin(char const *s1, char const *s2)` | Returns a new string, which is the result of the concatenation of ’s1’ and ’s2’. |
-| ft_strlcat | `size_t	ft_strlcat(char *dest, const char *src, size_t size)` | Appends the NUL-terminated string src to the end of dst. It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result. |
+| ft_strlcat | `size_t	ft_strlcat(char *dest, const char *src, size_t size)` | Appends the NUL-terminated string src to the end of dst. It will append at most size - ft_strlen(dst) - 1 bytes, NUL-terminating the result. |
 | ft_strlcpy | `size_t	ft_strlcpy(char *dst, const char *src, size_t size)` | Copies up to size - 1 characters from the NUL-terminated string src to dst, NUL-terminating the result. |
 | ft_strlen | `size_t	ft_strlen(const char *s)` | Calculates the length of the string pointed to by s, excluding the terminating null byte ('\0'). |
 | ft_strmapi | `char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))` | Applies the function ’f’ to each character of the string ’s’ to create a new string. |
