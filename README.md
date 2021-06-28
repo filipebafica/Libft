@@ -45,6 +45,13 @@ $ ./a.out
 | ft_atoi  | `int	ft_atoi(const char *nptr)` | Converts the initial portion of the string pointed to by nptr to int. |
 | ft_bzero  | `void	ft_bzero(void *s, size_t n)` | Erases the data in the n bytes of the memory starting at the location pointed to by s, by writing zeroes (bytes containing '\0') to that area. |
 | ft_calloc | `void	*ft_calloc(size_t nmemb, size_t size)` | Allocates memory for an array of nmemb elements of size bytes each and returns a pointer  to  the  allocated memory.  The memory is set to zero. |
+| ft_isalnum | `int	ft_isalnum(int c)` | Checks for an alphanumeric character. |
+| ft_isalpha | `int	ft_isalpha(int c)` | Checks for an alphabetic character. |
+| ft_isascii | `int	ft_isascii(int c)` | Checks whether c is a 7-bit unsigned char value that fits into the ASCII character set. |
+| ft_isdigit | `int	ft_isdigit(int c)` | Checks for a digit (0 through 9). |
+| ft_isprint | `int	ft_isprint(int c)` | Checks for any printable character including space. |
+| ft_itoa | `char	*ft_itoa(int n)` | Returns a string representing the integer received as an argument. |
+| ft_memccpy | `void	*ft_memccpy(void *dest, const void *src, int c, size_t n)` | Copies no more than n bytes from memory area src to memory area dest, stopping when the character c is found. |
 
 ## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
