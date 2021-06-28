@@ -22,7 +22,7 @@ $ git clone https://github.com/filipebafica/libft.git
 $ cd libft
 $ make
 ```
-This is going to generate a `libft.a` file that you can compile with your source code (with `#include "libft.h"` added).
+This is going to generate a `libft.a` file that you can compile with your source code.
 ```
 $ gcc my_source.c -I ./libft/includes ./libft/libft.a
 $ ./a.out
@@ -30,6 +30,8 @@ $ ./a.out
 ## 🎈 How to Use
 Just call the desired function (go to [Available Functions and Descriptions](#-available-functions-and-descriptions) to see all available functions).
 ```
+#include "libft.h"
+
 ft_split("split-this-for-me-!",'-');
 ```
 #### 👁️‍🗨️ Demonstration
