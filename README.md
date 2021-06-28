@@ -42,8 +42,9 @@ $ ./a.out
 ## 📋 Available Functions and Descriptions
 | Function  | Prototype | Description |
 | ------------- | ------------- | ------------- |
-| ft_atoi  | `int	ft_atoi(const char *nptr)` | Converts the initial portion of the string pointed to by nptr to int. Returns the converted value. |
+| ft_atoi  | `int	ft_atoi(const char *nptr)` | Converts the initial portion of the string pointed to by nptr to int. |
 | ft_bzero  | `void	ft_bzero(void *s, size_t n)` | Erases the data in the n bytes of the memory starting at the location pointed to by s, by writing zeroes (bytes containing '\0') to that area. |
+| ft_calloc | `void	*ft_calloc(size_t nmemb, size_t size)` | Allocates memory for an array of nmemb elements of size bytes each and returns a pointer  to  the  allocated memory.  The memory is set to zero. |
 
 ## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
