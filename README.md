@@ -40,7 +40,7 @@ int	main(void)
 }
 ```
 #### 👁️‍🗨️ Demonstration
-To see a demonstration compile the demo of the desired function (just add `_demo` to the end of function's name).
+To see a demonstration compile the demo of the desired function (just add `_demo` to the end of the function's name).
 ```
 $ gcc ./libft/demos/ft_strjoin_demo.c -I ./libft/includes ./libft/libft.a
 $ ./a.out
