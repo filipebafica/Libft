@@ -1,5 +1,5 @@
 # Libft
-An implemenation of libc functions from scratch.
+An implementation of libc functions from scratch.
 
 ## 🗂 Table of Contents
 * [About](#-about)
