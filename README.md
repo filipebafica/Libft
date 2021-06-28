@@ -52,6 +52,30 @@ $ ./a.out
 | ft_isprint | `int	ft_isprint(int c)` | Checks for any printable character including space. |
 | ft_itoa | `char	*ft_itoa(int n)` | Returns a string representing the integer received as an argument. |
 | ft_memccpy | `void	*ft_memccpy(void *dest, const void *src, int c, size_t n)` | Copies no more than n bytes from memory area src to memory area dest, stopping when the character c is found. |
+| ft_memchr | `void	*ft_memchr(const void *s, int c, size_t n)` | Scans the initial n bytes of the memory area pointed to by s for the first instance of c. Returns a pointer to the matching byte or NULL if the character does not occur in the given memory area. |
+| ft_memcmp | `int	ft_memcmp(const void *s1, const void *s2, size_t n)` | Compares the first n bytes. Returns an integer less than, equal to, or greater than zero if the first n bytes of s1 is found. |
+| ft_memcpu | `void	*ft_memcpy(void *dest, const void *src, size_t n)` | Copies n bytes from memory area src to memory area dest. |
+| ft_memmove | `void	*ft_memmove(void *dest, const void *src, size_t len)` | Copies n bytes from memory area src to memory area dest. The memory areas may overlap. |
+| ft_memset | `void	*ft_memset(void *s, int c, size_t n)` | Fills the first n bytes of the memory area pointed to by s with the constant byte c. |
+| ft_putchar_fd | `void	ft_putchar_fd(char c, int fd)` | Outputs the character ’c’ to the given file descriptor. |
+| ft_putendl_fd | `void	ft_putendl_fd(char *s, int fd)` | Outputs the string ’s’ to the given file descriptor, followed by a newline. |
+| ft_putnbr_fd | `void	ft_putnbr_fd(int n, int fd)` | Outputs the integer ’n’ to the given file descriptor. |
+| ft_putstr_fd | `void	ft_putstr_fd(char *s, int fd)` | Outputs the string ’s’ to the given file descriptor. |
+| ft_split | `char	**ft_split(char const *s, char c)` | Returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter. |
+| ft_strchr | `char	*ft_strchr(const char *s, int c)`| Returns a pointer to the first occurrence of the character c in the string s. |
+| ft_strdup | `char	*ft_strdup(const char *s)` | Returns a pointer to a new string which is a duplicate of the string s. |
+| ft_strjoin | `char	*ft_strjoin(char const *s1, char const *s2)` | Returns a new string, which is the result of the concatenation of ’s1’ and ’s2’. |
+| ft_strlcat | `size_t	ft_strlcat(char *dest, const char *src, size_t size)` | Appends the NUL-terminated string src to the end of dst. It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result. |
+| ft_strlcpy | `size_t	ft_strlcpy(char *dst, const char *src, size_t size)` | Copies up to size - 1 characters from the NUL-terminated string src to dst, NUL-terminating the result. |
+| ft_strlen | `size_t	ft_strlen(const char *s)` | Calculates the length of the string pointed to by s, excluding the terminating null byte ('\0'). |
+| ft_strmapi | `char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))` | Applies the function ’f’ to each character of the string ’s’ to create a new string. |
+| ft_strncmp | `int	ft_strncmp(const char *s1, const char *s2, size_t n)` | Compares only the first (at most) n bytes of s1 and s2. It returns an integer less than, equal to, or greater than zero if s1 is found. |
+| ft_strnstr | `char	*ft_strnstr(const char *big, const char *little, size_t len)` | Locates the first occurrence of the null-terminated string little in the string big. |
+| ft_strrchr | `char	*ft_strrchr(const char *s, int c)` | Returns a pointer to the last occurrence of the character c in the string s. |
+| ft_strtrim | `char	*ft_strtrim(char const *s1, char const *set)` |  Returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string. |
+| ft_substr | `char	*ft_substr(char const *s, unsigned int start, size_t len)` | Returns a substring from the string ’s’. The substring begins at index ’start’ and is ofmaximum size ’len’. |
+| ft_tolower | `int	ft_tolower(int c)` | Returns its lowercase equivalent. |
+| ft_toupper | `int	ft_toupper(int c)` | Returns its uppercasse equivalent. |
 
 ## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
