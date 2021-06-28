@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr_main.c                                   :+:      :+:    :+:   */
+/*   ft_substr_demo.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/15 12:36:00 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:25:14 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:56:26 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
+#include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len);
 int		main(void)
 {
 	char const *s = "up the irons";

@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove_main.c                                  :+:      :+:    :+:   */
+/*   ft_memmove_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/29 21:39:33 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:33:47 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:53:02 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
-
-void *ft_memmove(void *dest, const void *src, size_t n);
+#include "libft.h"
 
 int		main(void)
 {

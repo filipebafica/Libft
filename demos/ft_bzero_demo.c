@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero_main.c                                    :+:      :+:    :+:   */
+/*   ft_bzero_demo.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/28 20:23:37 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 22:23:01 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:51:13 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
-
-void	ft_bzero(void *s, size_t n);
+#include "libft.h"
 
 int		main(void)
 {

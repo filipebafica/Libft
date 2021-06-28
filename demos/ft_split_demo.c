@@ -1,19 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_split_main.c                                    :+:      :+:    :+:   */
+/*   ft_split_demo.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/20 15:26:53 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:44:40 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:48:19 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "libft.h"
 
-char	**ft_split(char const *s, char c);
+// char	**ft_split(char const *s, char c);
 int		main(void)
 {
 	char const *s = "split-this-for-me-!";

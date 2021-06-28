@@ -1,16 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strmapi_main.c                                  :+:      :+:    :+:   */
+/*   ft_strmapi_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 14:04:20 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:15:09 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:55:39 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
 char	f(unsigned int i, char c)
 {
@@ -19,8 +20,6 @@ char	f(unsigned int i, char c)
 	else
 		return (c);
 }
-
-char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 int		main(void)
 {

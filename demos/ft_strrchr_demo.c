@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr_main.c                                  :+:      :+:    :+:   */
+/*   ft_strrchr_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 23:17:28 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:20:28 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:56:08 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-char	*ft_strrchr(const char *s, int c);
+#include "libft.h"
 
 int		main(void)
 {

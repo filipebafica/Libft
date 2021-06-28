@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat_main.c                                  :+:      :+:    :+:   */
+/*   ft_strlcat_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 16:01:15 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:03:20 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:54:58 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-
-size_t	ft_strlcat(char *dst, const char *src, size_t size);
+#include "libft.h"
 
 int		main(void)
 {

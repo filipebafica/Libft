@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcmp_main.c                                   :+:      :+:    :+:   */
+/*   ft_memcmp_demo.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 15:27:16 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:23:38 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:52:40 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-int		ft_memcmp(const void *s1, const void *s2, size_t n);
+#include "libft.h"
 
 int		main(void)
 {

@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin_main.c                                  :+:      :+:    :+:   */
+/*   ft_strjoin_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/17 23:05:12 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:49:44 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:54:46 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2);
 int		main(void)
 {
 	char const *s1 = "up the ";

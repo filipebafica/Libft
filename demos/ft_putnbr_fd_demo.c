@@ -1,17 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd_main.c                                :+:      :+:    :+:   */
+/*   ft_putnbr_fd_demo.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 22:31:17 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:42:58 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:53:35 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-void	ft_putnbr_fd(int n, int fd);
+#include "libft.h"
+
 int 	main(void)
 {
 	int n = 10;

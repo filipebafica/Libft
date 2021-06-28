@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd_main.c                               :+:      :+:    :+:   */
+/*   ft_putchar_fd_demo.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 11:46:24 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:40:36 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:53:21 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-void	ft_putchar_fd(char c, int fd);
 int		main(void)
 {
 	char c = 'c';

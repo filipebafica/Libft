@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi_main.c                                     :+:      :+:    :+:   */
+/*   ft_atoi_demo.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/01 18:53:30 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 22:20:00 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:51:05 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-
-int	ft_atoi(const char *nptr);
+#include "libft.h"
 
 int	main(void)
 {

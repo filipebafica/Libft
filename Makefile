@@ -6,7 +6,7 @@
 #    By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/07 21:48:51 by fbafica           #+#    #+#              #
-#    Updated: 2021/06/27 18:23:35 by fbafica          ###   ########.fr        #
+#    Updated: 2021/06/28 01:45:14 by fbafica          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,10 @@ C_SOURCES = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
 			ft_strlcpy.c ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c \
 			ft_strrchr.c ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c
 
+C_PATH = ./source/
+
+INCLUDES_PATH = ./includes/
+
 OBJ = $(C_SOURCES:.c=.o)
 
 all: $(NAME) clean
@@ -27,8 +31,8 @@ all: $(NAME) clean
 $(NAME): $(OBJ)
 	@ar rcs $@ $^ 
 
-$(OBJ): $(C_SOURCES)
-	@gcc -c $^ -Wall -Wextra -Werror
+$(OBJ): $(addprefix $(C_PATH), $(C_SOURCES))
+	@gcc -c -I$(INCLUDES_PATH) $^ -Wall -Wextra -Werror
 
 clean:
 	@rm -f $(OBJ)

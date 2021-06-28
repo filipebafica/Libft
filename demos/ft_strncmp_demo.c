@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp_main.c                                  :+:      :+:    :+:   */
+/*   ft_strncmp_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/01 17:23:04 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:18:21 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:55:49 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-int		ft_strncmp(const char *s1, const char *s2, size_t n);
+#include "libft.h"
 
 int		main(void)
 {

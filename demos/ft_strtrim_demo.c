@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strtrim_main.c                                  :+:      :+:    :+:   */
+/*   ft_strtrim_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/18 11:34:50 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:22:49 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:56:16 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-char	*ft_strtrim(char const *s1, char const *set);
 int		main(void)
 {
 	char const *s1 = "   xxxyyyyy";

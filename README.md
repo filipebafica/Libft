@@ -19,12 +19,12 @@ A C compiler such as `gcc` or `clang` is needed.
 To compile the entire library, clone the repo, and run the commad `make`.
 ```
 $ git clone https://github.com/filipebafica/libft.git
-$ cd libft/source
+$ cd libft
 $ make
 ```
-This is going to generate a `libft.a` file that you can compile with your source code.
+This is going to generate a `libft.a` file that you can compile with your source code (with `#include "libft.h"` added).
 ```
-$ gcc my_source.c libft.a
+$ gcc my_source.c -I ./includes libft.a
 $ ./a.out
 ```
 ## 🎈 How to Use
@@ -33,10 +33,9 @@ Just call the desired function (go to [Available Functions and Descriptions](#-a
 ft_split("split-this-for-me-!",'-');
 ```
 #### 👁️‍🗨️ Demonstration
-To see a demonstration go to the demo folder, and compile the demo of the desired function (just add `_demo` to the end of function's name).
+To see a demonstration compile the demo of the desired function (just add `_demo` to the end of function's name).
 ```
-$ cd libft/demos
-$ gcc ft_split_demo.c ../source/libft.a
+$ gcc ./demos/ft_split_demo.c -I ./includes libft.a
 $ ./a.out
 ```
 ## 📋 Available Functions and Descriptions

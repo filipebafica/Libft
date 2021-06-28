@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy_main.c                                   :+:      :+:    :+:   */
+/*   ft_memcpy_demo.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/28 22:13:25 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:31:53 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:52:50 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-void	*ft_memcpy(void *dest, const void *src, size_t n);
+#include "libft.h"
 
 int		main(void)
 {

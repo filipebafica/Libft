@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc_main.c                                   :+:      :+:    :+:   */
+/*   ft_calloc_demo.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/04 14:13:45 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 22:30:02 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:51:23 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-
-void	*ft_calloc(size_t nmemb, size_t size);
+#include "libft.h"
 
 int		main(void)
 {

@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memchr_main.c                                   :+:      :+:    :+:   */
+/*   ft_memchr_demo.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 13:09:47 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/27 23:20:22 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:52:30 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-void	*ft_memchr(const void *s, int c, size_t n);
+#include "libft.h"
 
 int		main(void)
 {

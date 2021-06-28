@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strnstr_main.c                                  :+:      :+:    :+:   */
+/*   ft_strnstr_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/01 11:29:04 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:19:28 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:55:58 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-char	*ft_strnstr(const char *big, const char *little, size_t len);
+#include "libft.h"
 
 int		main(void)
 {

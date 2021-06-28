@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy_main.c                                  :+:      :+:    :+:   */
+/*   ft_strlcpy_demo.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 11:44:28 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/28 00:09:05 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/06/28 01:55:07 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+#include "libft.h"
 
 int		main(void)
 {
