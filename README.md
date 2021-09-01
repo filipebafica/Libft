@@ -16,7 +16,7 @@ Topics such as memory allocation, ASCII table, string manipulation, and others w
 The `gcc` compiler is needed.
 
 #### ⚙️ Installing
-To compile the entire library, clone the repo, and run the commad `make`.
+To compile the entire library, clone the repo, and run the command `make`.
 ```
 $ git clone https://github.com/filipebafica/libft.git
 $ cd libft
@@ -85,6 +85,6 @@ $ ./a.out
 
 ## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
-At 42 there are no teachers or classrooms, each student learn from and work with each other (peer-to-peer learning).\
+At 42 there are no teachers or classrooms, each student learns from and works with each other (peer-to-peer learning).\
 To see more go to https://www.42.fr/ and https://www.42sp.org.br/.
 
