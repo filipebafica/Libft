@@ -13,7 +13,7 @@ This is an implementation of libc functions from scratch. This project is part o
 Topics such as memory allocation, ASCII table, string manipulation, and others were addressed.
 
 ## 🏁 Getting Started
-A C compiler such as `gcc` or `clang` is needed.
+The `gcc` compiler is needed.
 
 #### ⚙️ Installing
 To compile the entire library, clone the repo, and run the commad `make`.
