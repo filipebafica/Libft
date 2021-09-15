@@ -1,4 +1,4 @@
-# Libft
+# libft
 An implementation of libc functions from scratch.
 
 ## 🗂 Table of Contents
