@@ -79,7 +79,7 @@ $ ./a.out
 | ft_strnstr | `char	*ft_strnstr(const char *big, const char *little, size_t len)` | Locates the first occurrence of the null-terminated string little in the string big. |
 | ft_strrchr | `char	*ft_strrchr(const char *s, int c)` | Returns a pointer to the last occurrence of the character c in the string s. |
 | ft_strtrim | `char	*ft_strtrim(char const *s1, char const *set)` |  Returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string. |
-| ft_substr | `char	*ft_substr(char const *s, unsigned int start, size_t len)` | Returns a substring from the string ’s’. The substring begins at index ’start’ and is ofmaximum size ’len’. |
+| ft_substr | `char	*ft_substr(char const *s, unsigned int start, size_t len)` | Returns a substring from the string ’s’. The substring begins at index ’start’ and is of maximum size ’len’. |
 | ft_tolower | `int	ft_tolower(int c)` | Returns its lowercase equivalent. |
 | ft_toupper | `int	ft_toupper(int c)` | Returns its uppercasse equivalent. |
 
