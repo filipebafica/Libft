@@ -6,11 +6,10 @@
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 14:03:47 by fbafica           #+#    #+#             */
-/*   Updated: 2021/06/22 22:02:19 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/10/25 16:53:34 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 static	int	get_len(const char *s)

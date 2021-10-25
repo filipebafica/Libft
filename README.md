@@ -76,6 +76,7 @@ $ ./a.out
 | ft_strlen | `size_t	ft_strlen(const char *s)` | Calculates the length of the string pointed to by s, excluding the terminating null byte ('\0'). |
 | ft_strmapi | `char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))` | Applies the function ’f’ to each character of the string ’s’ to create a new string. |
 | ft_strncmp | `int	ft_strncmp(const char *s1, const char *s2, size_t n)` | Compares only the first (at most) n bytes of s1 and s2. It returns an integer less than, equal to, or greater than zero if s1 is found. |
+| ft_strncmp | `int	ft_strcmp(const char *s1, const char *s2)` | Compares s1 and s2. It returns an integer less than, equal to, or greater than zero if s1 is found. |
 | ft_strnstr | `char	*ft_strnstr(const char *big, const char *little, size_t len)` | Locates the first occurrence of the null-terminated string little in the string big. |
 | ft_strrchr | `char	*ft_strrchr(const char *s, int c)` | Returns a pointer to the last occurrence of the character c in the string s. |
 | ft_strtrim | `char	*ft_strtrim(char const *s1, char const *set)` |  Returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string. |
