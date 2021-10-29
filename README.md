@@ -69,6 +69,7 @@ $ ./a.out
 | ft_putstr_fd | `void	ft_putstr_fd(char *s, int fd)` | Outputs the string ’s’ to the given file descriptor. |
 | ft_split | `char	**ft_split(char const *s, char c)` | Returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter. |
 | ft_strchr | `char	*ft_strchr(const char *s, int c)`| Returns a pointer to the first occurrence of the character c in the string s. |
+| ft_strchrlen | `int	ft_strchr(const char *s, int c)`| Returns the length of the first occurrence of the character c in the string s. |
 | ft_strdup | `char	*ft_strdup(const char *s)` | Returns a pointer to a new string which is a duplicate of the string s. |
 | ft_strjoin | `char	*ft_strjoin(char const *s1, char const *s2)` | Returns a new string, which is the result of the concatenation of ’s1’ and ’s2’. |
 | ft_strlcat | `size_t	ft_strlcat(char *dest, const char *src, size_t size)` | Appends the NUL-terminated string src to the end of dst. It will append at most size - ft_strlen(dst) - 1 bytes, NUL-terminating the result. |
