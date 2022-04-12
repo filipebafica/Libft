@@ -49,6 +49,7 @@ $ ./a.out
 | Function  | Prototype | Description |
 | ------------- | ------------- | ------------- |
 | ft_atoi  | `int	ft_atoi(const char *nptr)` | Converts the initial portion of the string pointed to by nptr to int. |
+| ft_atof  | `float	ft_atof(const char *nptr)` | Converts the initial portion of the string pointed to by nptr to float. |
 | ft_bzero  | `void	ft_bzero(void *s, size_t n)` | Erases the data in the n bytes of the memory starting at the location pointed to by s, by writing zeroes (bytes containing '\0') to that area. |
 | ft_calloc | `void	*ft_calloc(size_t nmemb, size_t size)` | Allocates memory for an array of nmemb elements of size bytes each and returns a pointer  to  the  allocated memory.  The memory is set to zero. |
 | ft_isalnum | `int	ft_isalnum(int c)` | Checks for an alphanumeric character. |
